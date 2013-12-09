@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tweetshirt</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/scripts.js"></script>
+    </head>
+    <body>
+    <h1>Tweetshirt</h1>
+        <canvas id="tshirtCanvas" width="600" height="200">
+            Please upgrade your browser to use Tweetshirt!
+        </canvas>
+        
+        <form>
+            <p>
+                <label for="backgroundColor">Select background color:</label>
+                <select id="backgroundColor">
+                    <option value="white" selected="selected">White</option>
+                    <option value="black">Black</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </p>
+            <p>
+                <label for="shape">Circles or Squares?</label>
+                <select id="shape">
+                    <option value="none" selected="selected">Neither</option>
+                    <option value="circles">Circles</option>
+                    <option valie="squares">Squares</option>
+                </select>
+            </p>
+            <p>
+                <label for="foregroundColor">Select a text color:</label>
+                <select id="foregroundColor">
+                    <option value="black" selected="selected">Black</option>
+                    <option value="white">White</option>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                </select>
+            </p>
+            <p>
+                <label for="tweets">Pick a tweet:</label>
+                <select id="tweets">
+                </select>
+            </p>
+            <p>
+                <input type="button" id="previewButton" value="preview">
+            </p>
+        </form>
+    </body>
+</html>
